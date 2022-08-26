@@ -1,5 +1,5 @@
 #test {
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     background-color: white;
     box-shadow: 2px 2px 10px grey;

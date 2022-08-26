@@ -1,0 +1,69 @@
+#test {
+    /* position: fixed; */
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px 10px grey;
+    bottom: 0;
+
+}
+
+#test>#icons {
+    margin: 0.5em 2em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#test>#icons>#menu>img {
+    width: 30px;
+    height: 50px;
+}
+
+#test>#icons>#cart>img {
+    width: 30px;
+    height: 50px;
+}
+
+#test>#icons>#heart>img {
+    width: 30px;
+    height: 50px;
+}
+
+#test>#icons>#home>img {
+    width: 30px;
+    height: 50px;
+}
+
+#test>#icons>#grid>img {
+    margin-top: 0.5em;
+    width: 30px;
+    height: 40px;
+}
+
+
+
+#trending {
+
+    height: 300px;
+    background-color: teal;
+    margin: 2em 1em;
+
+}
+
+.swiper {
+    position: relative;
+    height: 300px;
+    background-color: green;
+   margin: 2em;
+   margin-left: 2em;
+}
+
+
+
+.swiper-slide > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+}
+

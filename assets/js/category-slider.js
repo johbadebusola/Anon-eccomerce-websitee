@@ -7,8 +7,13 @@ const swiper = new Swiper(".mySwiper2", {
         600:{
           slidesPerView: 2,
           spaceBetween: 10
+        },
+        900:{
+          slidesPerView: 3,
+          spaceBetween: 10
         }
       },
+      
       // And if we need scrollbar
       scrollbar: {
         el: ".swiper-scrollbar",

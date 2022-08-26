@@ -43,3 +43,9 @@
     width: 30px;
     height: 40px;
 }
+
+@media (min-width:600px) {
+    #test {
+        margin: auto;
+    }
+}

@@ -1,0 +1,63 @@
+/* category */
+.mySwiper2 {
+    height: 70px;
+    margin: 2em 1em;
+    overflow: visible;
+}
+
+.mySwiper2 > .swiper-wrapper > .swiper-slide{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    
+}
+.container {
+    
+    width: 55%;
+    height: 100%;
+
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+
+.container > .cont-img{
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(237,237,237);
+width: 40px;
+height: 40px;
+border-radius: 5px;
+border:1px solid grey;
+margin-left: -2em;
+}
+
+.container > .cont-img > img{
+    width: 25px;
+}
+
+.container > .cont-text{
+
+    font-family: 'Poppins', sans-serif;
+    margin-left: -5em;
+}
+
+.container > .cont-text > .p1{
+font-size: 10px;
+font-weight: bold;
+}
+
+.container > .cont-text > .p2{
+    font-size: 10px;
+    color:rgb(225, 143, 156);
+    }
+
+    .mySwiper2 > .swiper-wrapper > .swiper-slide > .num{
+        margin-top: 0.5em;
+        margin-right: 0.7em;
+        font-size: 13px;
+    }

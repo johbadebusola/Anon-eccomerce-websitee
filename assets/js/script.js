@@ -1,16 +1,20 @@
-const swiper = new Swiper('.swiper', {
 
-  direction: 'horizontal',
-  loop: false,
 
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
+//   // breakpoints: {
+//   //   600:{
+//   //     slidesPerView: 2,
+//   //     spaceBetween: 10
+//   //   }
+//   // },
+//     // And if we need scrollbar
+//     scrollbar: {
+//       el: '.swiper-scrollbar',
+//     },
+//  
+
+  var swiper1 = new Swiper(".mySwiper", {
     scrollbar: {
-      el: '.swiper-scrollbar',
+      el: ".swiper-scrollbar",
+      hide: true,
     },
   });

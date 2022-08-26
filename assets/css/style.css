@@ -5,7 +5,7 @@ body{
 
 
 .swiper {
-height: 300px;
+height: 345px;
 margin: 2em 1em;
 border-radius: 7px;
 
@@ -18,7 +18,7 @@ position: relative;
 width: 100%;
 height: 100%;
 object-fit: cover;
-object-position: right;
+object-position: right ;
 position: absolute;
 
 }
@@ -28,26 +28,29 @@ position: absolute;
 bottom: 1em;
 left:1em;
 width: 70%;
-padding: 0em 1em 1em;
+padding: 0em 2em 1em 1em;
 background-color:rgba(255,255,255,0.8);
 border-radius: 10px;
 }
 
-.box1 > p {
+.box1 > .box1-item {
+  width: 80%;
+}
+
+.box1 > .box1-item > p {
 color: rgb(225, 143, 156);
 font-family: monospace;
-font-weight: 600;
 margin-bottom: -0.5em;
 }
 
-.box1 > h2 {
+.box1 > .box1-item > h2 {
 
 font-family: monospace;
 font-weight: 600;
 margin-bottom: 0;
 }
 
-.box1 > button{
+.box1 > .box1-item > button{
 background-color: rgb(225, 143, 156);
 font-weight:600;
 font-size:8px;

@@ -1,6 +1,8 @@
 const swiper = new Swiper('.swiper', {
 
-  
+  direction: 'horizontal',
+  loop: false,
+
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',

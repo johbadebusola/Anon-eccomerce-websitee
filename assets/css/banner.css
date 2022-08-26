@@ -9,7 +9,7 @@
 }
 
 #banner> img {
-    width: 50%;
+    width: 30%;
     margin-bottom: 1em;
 }
 
@@ -20,7 +20,7 @@
 
 #banner>#search-bar>input {
     width: 100%;
-    background-color: rgb(238, 237, 237);
+    background-color: rgb(237,237,237);
     padding: 15px;
     border: none;
     border-radius: 8px;

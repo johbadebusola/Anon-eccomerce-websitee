@@ -1,0 +1,53 @@
+@media (min-width:600px) {
+    #banner {
+        margin: 2em 1em;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #banner>#search-bar {
+        width: 50%;
+    }
+
+    #banner>img {
+        width: 20%;
+    }
+
+    #test {
+        margin: auto;
+        border-radius: 7px;
+    }
+
+    .box1 {
+        background: none;
+        width: 60%;
+        top: 5em;
+        left: 2em;
+    }
+
+    .box1>.box1-item>h2 {
+        font-weight: 900;
+        font-size: 1.5em;
+        line-height: 1;
+    }
+
+    .box1>.box1-item>.price {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        color: gray;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: -0.2em;
+    }
+
+    .box1>.box1-item>.price>span {
+        font-size: 1.4em;
+        font-weight: 800;
+    }
+
+    .shipping-info {
+        display: block;
+    }
+}

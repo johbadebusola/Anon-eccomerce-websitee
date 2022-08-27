@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/swiper-category.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,23 @@
 </head>
 
 <body>
+    <div class="shipping-info">
+        <p> <span>FREE SHIPPING</span> THIS WEEK ORDER OVER - $55</p>
+        <div class="select-box">
+            <select name="currency" class="currency">
+                <option value="usd">USD $</option>
+                <option
+                value="eur">EUR $</option>
+            </select>
+            <select name="lang" class="lang">
+                <option value="eng">English</option>
+                <option
+                value="Esp">Espanol</option>
+                <option
+                value="Fra">Francais</option>
+            </select>
+        </div>
+    </div>
     <!-- HEADER -->
     <div id="banner">
         <img src="assets/images/logo/logo.svg">
@@ -39,8 +57,10 @@
                 <img src="assets/images/banner-1.jpg">
                 <div class="box1">
                     <div class="box1-item">
-                        <p> Trending item</p>
+                        <p class="text"> Trending item</p>
                         <h2> WOMEN'S LATEST FASHION SALE</h2>
+                        <p class="price">
+                            starting at $ <span>20</span>.00 </p>
                         <button> SHOP NOW </button>
                     </div>
 
@@ -50,8 +70,10 @@
                 <img src="assets/images/banner-2.jpg">
                 <div class="box1">
                     <div class="box1-item">
-                        <p> Trending Accessories</p>
+                        <p class="text"> Trending Accessories</p>
                         <h2> MODERN SUNGLASSES</h2>
+                        <p class="price">
+                            starting at $ <span>15</span>.00 </p>
                         <button> SHOP NOW </button>
                     </div>
                 </div>
@@ -60,13 +82,16 @@
                 <img src="assets/images/banner-3.jpg">
                 <div class="box1">
                     <div class="box1-item">
-                        <p> Sale Offer</p>
+                        <p class="text"> Sale Offer</p>
                         <h2>NEW FASHION SUMMER SALE</h2>
+                        <p class="price">
+                            starting at $ <span>29</span>.99 </p>
                         <button> SHOP NOW </button>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="swiper-pagination">y</div>
         <div class="swiper-scrollbar"></div>
     </div>
 
@@ -177,6 +202,9 @@
     <div class="swiper-scrollbar"></div>
   </div>
 </div>
+
+<h4 class="new-arrivals">New Arrivals</h4>
+<hr>
     <!-- FOOTER -->
     <div id="test">
         <div id="icons">

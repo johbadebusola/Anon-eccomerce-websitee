@@ -13,8 +13,13 @@
 //  
 
   var swiper1 = new Swiper(".mySwiper", {
+    
     scrollbar: {
       el: ".swiper-scrollbar",
       hide: true,
+    },
+    pagenation: {
+      el: ".swiper-pagination",
+      // hide: true,
     },
   });

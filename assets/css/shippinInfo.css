@@ -1,0 +1,26 @@
+.shipping-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    margin-left: 1em;
+    margin-right: 6em;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+.shipping-info > p{
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    
+}
+.select-box > .currency, .lang{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(237,237,237);
+    font-size: 9px;
+    width: 75x;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}

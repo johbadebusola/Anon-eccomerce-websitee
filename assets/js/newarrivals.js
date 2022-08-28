@@ -15,6 +15,10 @@ const swipers = new Swiper(".mySwiper3", {
           el: ".swiper-scrollbar",
           hide: true,
         },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable:true,
+        },
       
       });
     

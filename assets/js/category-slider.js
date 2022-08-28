@@ -19,6 +19,7 @@ const swiper = new Swiper(".mySwiper2", {
         el: ".swiper-scrollbar",
         hide: true,
       },
+    
     });
   
    

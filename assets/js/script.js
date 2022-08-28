@@ -18,8 +18,9 @@
       el: ".swiper-scrollbar",
       hide: true,
     },
-    pagenation: {
+    pagination: {
       el: ".swiper-pagination",
+      clickable: true,
       // hide: true,
     },
   });

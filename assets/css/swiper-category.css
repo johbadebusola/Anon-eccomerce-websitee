@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid rgb(207, 200, 200);
     border-radius: 7px;
 }
 
@@ -53,24 +53,26 @@
 }
 
 .container>.cont-text {
-    font-family: 'Poppins', sans-serif;
+   
     margin-left: -7em;
 }
 
 .container>.cont-text>.p1 {
     font-size: 10px;
     font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container>.cont-text>.p2 {
     font-size: 10px;
     color: rgb(225, 143, 156);
+    font-family: 'Poppins', sans-serif;
 }
 
 .container>.num {
    margin-top: -2em;
    margin-right: -4em;
     font-size: 12px;
-    
+    font-family: 'Poppins', sans-serif;
 }
 

@@ -8,11 +8,12 @@
     margin-right: 6em;
     margin-bottom: 10px;
     width: 95%;
+   opacity: 1;
 }
 
 .shipping-info > p{
     font-family: 'Poppins', sans-serif;
-    color: gray;
+    color: grey;
     
 }
 .select-box > .currency, .lang{

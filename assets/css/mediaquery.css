@@ -1,4 +1,81 @@
-@media (min-width:600px) {
+@media (min-width:0px) {
+    .select-box {
+        display: none;
+    }
+    .shipping-info>p{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:480px) {
+
+    /* CSS FOR SEARCH BAR */
+    #banner>#search-bar>input {
+        width: 100%;
+        background-color: transparent;
+        padding: 10px;
+        box-shadow: 1px 1px 5px grey;
+        border-radius: 8px;
+    }
+
+    #banner>#search-bar>#search-icon {
+        display: none;
+    }
+
+    #banner>#search-bar>#search-icon2 {
+        display: none;
+    }
+
+    #banner>#search-bar>input::placeholder {
+        padding-left: 0em;
+    }
+
+    /* CSS FOR BANNER IMAGE SLIDER */
+    .mySwiper {
+        height: 240px;
+    }
+
+    .box1 {
+        width: 70%;
+    }
+
+    .box1>.box1-item>.text {
+        font-weight: 400;
+    }
+
+    .box1>.box1-item>.price {
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        color: gray;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: -0.2em;
+    }
+
+    .box1>.box1-item>.price>span {
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+
+    .box1>.box1-item>h2 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 1;
+    }
+
+    .shipping-info>.select-box {
+        display: none;
+    }
+    .shipping-info>p{
+        display: block;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width:570px) {
+
     #banner {
         margin: 2em 1em;
         justify-content: space-between;
@@ -20,17 +97,22 @@
         border-radius: 7px;
     }
 
+
     .box1 {
         background: none;
         width: 60%;
         top: 5em;
         left: 2em;
+        font-family: 'Poppins', sans-serif;
     }
 
+
+
     .box1>.box1-item>h2 {
-        font-weight: 900;
+        font-weight: 700;
         font-size: 1.5em;
         line-height: 1;
+        font-family: 'Poppins', sans-serif;
     }
 
     .box1>.box1-item>.price {
@@ -38,16 +120,24 @@
         font-family: 'Poppins', sans-serif;
         color: gray;
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 300;
         margin-top: -0.2em;
     }
 
     .box1>.box1-item>.price>span {
         font-size: 1.4em;
-        font-weight: 800;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
     }
 
-    .shipping-info {
+    .shipping-info>p {
+        font-family: 'Poppins', sans-serif;
+        color: red;
+
+    }
+
+    .shipping-info>.select-box {
         display: block;
     }
 }
+

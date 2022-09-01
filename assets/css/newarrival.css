@@ -4,7 +4,7 @@
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2 {
-    border: 1px solid rgb(207, 200, 200);
+    border: 1px solid var(--cultured);
     width: 98%;
     height: 70px;
     border-radius: 7px;
@@ -32,21 +32,21 @@
     font-size: 10px;
     font-weight: bold;
     margin-bottom: -1em;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--poppins);
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2>.cont-text>.p2{
       font-size: 10px;
-      font-family: 'Poppins', sans-serif;
+      font-family:var(--poppins);
       margin-bottom: -1em;
-          font-family: 'Poppins', sans-serif;color: gray;
+          color: gray;
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2>.cont-text>.p3{
     font-weight: bold;
     font-size: 11px;
-    font-family: 'Poppins', sans-serif;
-    color: rgb(225, 143, 156);
+    font-family:var(--poppins);
+    color: var(--pink);
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2>.cont-text>.p3>span{
@@ -57,4 +57,10 @@
     margin-left: 0.3em;
 }
 
-
+.new-arrivals{
+    margin:-0.5em 1em 1.2em 1em;
+    font-family: var(--poppins);
+    font-weight: 600;
+  }
+  
+  

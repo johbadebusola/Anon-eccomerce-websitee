@@ -2,8 +2,6 @@ body {
   margin: 0;
 }
 
-
-
 .mySwiper {
   height: 300px;
   margin: 2em 1em;
@@ -68,10 +66,3 @@ body {
   border-radius: 5px;
   font-family: 'Poppins', sans-serif;
 }
-
-.new-arrivals{
-  margin:-0.5em 1em 1.2em 1em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-}
-

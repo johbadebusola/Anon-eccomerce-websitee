@@ -2,7 +2,8 @@
     .select-box {
         display: none;
     }
-    .shipping-info>p{
+
+    .shipping-info>p {
         display: none;
     }
 }
@@ -66,7 +67,8 @@
     .shipping-info>.select-box {
         display: none;
     }
-    .shipping-info>p{
+
+    .shipping-info>p {
         display: block;
         font-size: 10px;
         font-weight: 600;
@@ -89,6 +91,7 @@
     }
 
     #banner>img {
+        margin-top: 1em;
         width: 20%;
     }
 
@@ -101,18 +104,16 @@
     .box1 {
         background: none;
         width: 60%;
-        top: 5em;
+        top: 1em;
         left: 2em;
         font-family: 'Poppins', sans-serif;
     }
 
 
-
     .box1>.box1-item>h2 {
         font-weight: 700;
-        font-size: 1.5em;
+        font-size: 25px;
         line-height: 1;
-        font-family: 'Poppins', sans-serif;
     }
 
     .box1>.box1-item>.price {
@@ -120,14 +121,13 @@
         font-family: 'Poppins', sans-serif;
         color: gray;
         font-size: 15px;
-        font-weight: 300;
+        font-weight: 400;
         margin-top: -0.2em;
     }
-
     .box1>.box1-item>.price>span {
         font-size: 1.4em;
-        font-weight: 500;
-        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        
     }
 
     .shipping-info>p {
@@ -140,4 +140,3 @@
         display: block;
     }
 }
-

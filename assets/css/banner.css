@@ -3,9 +3,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    flex-direction: column;
-
-    
+    flex-direction: column; 
 }
 
 #banner> img {
@@ -62,5 +60,7 @@
 
 hr {
     margin-top: -0.5em;
-    background-color: (207, 200, 200);
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: var(--cultured);
 }

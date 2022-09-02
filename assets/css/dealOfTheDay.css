@@ -1,11 +1,11 @@
 .mySwiper4 {
-    height: 600px;
+    height: 750px;
     margin: 2em 1em 2em 1em;
 }
 
 .container-box {
     width: 98%;
-    height: 500px;
+    height: 700px;
     border: 1px solid var(--cultured);
     border-radius: 8px;
 
@@ -18,12 +18,12 @@
     margin: auto;
     align-items: center;
     justify-content: center;
-
+margin-bottom: 2em;
 }
 
 .container-box>.container-image>img {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
 }
 
 .container-box>.container-info {
@@ -63,6 +63,7 @@
     background-color: var(--pink);
     font-weight: bold;
     color: white;
+    margin-bottom: 0.7em;
     border: none;
     padding: 0.7em 1em;
     font-family: var(--poppins);
@@ -71,4 +72,40 @@
 .container-box>.container-info>button:hover{
     background-color: black;
     transition: 0.5s;
+}
+
+.container-box>.container-info>.cont-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-family: var(--poppins);
+    margin-bottom: 0.7em;
+}
+
+.container-box>.container-info>.cont-item>p>span{
+  font-weight: bolder;
+}
+
+.container-box>.container-info>.progress-bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 7px;
+    background-color:var( --cultured);
+    display: flex;
+ padding-left: 0.3em;
+    align-items: center;
+    margin-bottom: 0.7em;
+}
+.container-box>.container-info>.progress-bar>.bar{
+    background-color: var(--pink);
+    width: 45%;
+   height:3px ; 
+   border-radius: 7px;
+}
+
+.container-box>.container-info>.item3{
+    font-size: 10px;
+    font-family: var(--poppins);
+    margin-bottom: 0.7em;
+    font-weight: bold;
 }

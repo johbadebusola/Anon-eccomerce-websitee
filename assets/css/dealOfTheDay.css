@@ -1,5 +1,5 @@
 .mySwiper4 {
-    height: 750px;
+    height: 700px;
     margin: 2em 1em 2em 1em;
 }
 
@@ -13,17 +13,16 @@
 
 .container-box>.container-image {
     width: 100%;
-
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: center;
-margin-bottom: 2em;
+    margin-bottom: 2em;
 }
 
 .container-box>.container-image>img {
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
 }
 
 .container-box>.container-info {
@@ -36,31 +35,32 @@ margin-bottom: 2em;
     font-size: 13px;
     font-family: var(--poppins);
     margin-bottom: -0.7em;
-    
 }
 
-.container-box>.container-info>.test1{
-  color: var(--spanish-gray);
-  font-family: var(--poppins);
-  font-size: 12px;
-  margin-bottom: -0.7em;
+.container-box>.container-info>.test1 {
+    color: var(--spanish-gray);
+    font-family: var(--poppins);
+    font-size: 12px;
+    margin-bottom: -0.7em;
 }
 
-.container-box>.container-info>.test2{
-    color: var(--pink);
+.container-box>.container-info>.test2 {
+    color: var(--salmon-pink);
     font-family: var(--poppins);
     font-weight: bold;
+    font-size: 20px;
 }
 
-.container-box>.container-info>.test2>span{
-    color: #000;
+.container-box>.container-info>.test2>span {
+    color: var(--spanish-gray);
     font-weight: normal;
     text-decoration: line-through;
     margin-left: 7px;
 }
-.container-box>.container-info>button{
+
+.container-box>.container-info>button {
     border-radius: 8px;
-    background-color: var(--pink);
+    background-color: var(--salmon-pink);
     font-weight: bold;
     color: white;
     margin-bottom: 0.7em;
@@ -69,43 +69,145 @@ margin-bottom: 2em;
     font-family: var(--poppins);
 }
 
-.container-box>.container-info>button:hover{
+.container-box>.container-info>button:hover {
     background-color: black;
     transition: 0.5s;
 }
 
-.container-box>.container-info>.cont-item{
+.container-box>.container-info>.cont-item {
     display: flex;
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 12px;
     font-family: var(--poppins);
     margin-bottom: 0.7em;
 }
 
-.container-box>.container-info>.cont-item>p>span{
-  font-weight: bolder;
+.container-box>.container-info>.cont-item>p>span {
+    font-weight: bolder;
 }
 
-.container-box>.container-info>.progress-bar{
+.container-box>.container-info>.progress-bar {
     width: 100%;
     height: 10px;
     border-radius: 7px;
-    background-color:var( --cultured);
+    background-color: var(--cultured);
     display: flex;
- padding-left: 0.3em;
+    padding-left: 0.3em;
     align-items: center;
     margin-bottom: 0.7em;
 }
-.container-box>.container-info>.progress-bar>.bar{
+
+.container-box>.container-info>.progress-bar>.bar {
     background-color: var(--pink);
     width: 45%;
-   height:3px ; 
-   border-radius: 7px;
+    height: 3px;
+    border-radius: 7px;
 }
 
-.container-box>.container-info>.item3{
+.container-box>.container-info>.item3 {
     font-size: 10px;
     font-family: var(--poppins);
     margin-bottom: 0.7em;
     font-weight: bold;
+}
+
+.container-box>.container-info>.time {
+    display: flex;
+}
+
+.container-box>.container-info>.time>.days {
+    background-color: var(--cultured);
+    width: 50px;
+    width: 45px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 0.5em;
+    padding: 2px;
+}
+
+.container-box>.container-info>.time>.days>.p1 {
+    margin-top: 0.3em;
+    margin-bottom: -0.5em;
+    font-size: medium;
+    color: var(--davys-gray);
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+.container-box>.container-info>.time>.days>.p2 {
+    font-size: 11px;
+    margin-bottom: -0.5em;
+    font-family: var(--poppins);
+}
+
+.container-box>.container-info>.time>.hours {
+    background-color: var(--cultured);
+    width: 45px;
+    height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 0.5em;
+    padding: 2px;
+}
+
+.container-box>.container-info>.time>.hours>.p1 {
+    margin-top: 0.3em;
+    margin-bottom: -0.5em;
+    font-size: medium;
+    color: var(--davys-gray);
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+.container-box>.container-info>.time>.hours>.p2 {
+    font-size: 11px;
+    font-family: var(--poppins);
+}
+
+.container-box>.container-info>.time>.min {
+    background-color: var(--cultured);
+    width: 50px;
+    height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 0.5em;
+    padding: 2px;
+}
+
+.container-box>.container-info>.time>.min>.p1 {
+    margin-top: 0.3em;
+    margin-bottom: -0.5em;
+    font-size: medium;
+    color: var(--davys-gray);
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+.container-box>.container-info>.time>.min>.p2 {
+    font-size: 11px;
+    font-family: var(--poppins);
+}
+
+.container-box>.container-info>.time>.sec {
+    background-color: var(--cultured);
+    width: 45px;
+    height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 0.5em;
+    padding: 2px;
+}
+
+.container-box>.container-info>.time>.sec>.p1 {
+    margin-top: 0.3em;
+    margin-bottom: -0.5em;
+    font-size: medium;
+    color: var(--davys-gray);
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+
+.container-box>.container-info>.time>.sec>.p2 {
+    font-size: 11px;
+    font-family: var(--poppins);
 }

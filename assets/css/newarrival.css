@@ -1,12 +1,12 @@
 .mySwiper3 {
-    height: 380px;
+    height: 480px;
     margin: 1em;
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2 {
     border: 1px solid var(--cultured);
     width: 98%;
-    height: 70px;
+    height: 90px;
     border-radius: 7px;
     margin-bottom: 0.5em;
     display: flex;
@@ -18,8 +18,8 @@
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2>.cont-img{
-    width: 60px;
-    height: 50px;
+    width: 70px;
+    height: 60px;
     margin-left: 1em;
 }
 
@@ -29,31 +29,32 @@
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2>.cont-text>.p1{
-    font-size: 10px;
+    font-size: 14px;
     font-weight: bold;
-    margin-bottom: -1em;
+    margin-top: 1.5em;
     font-family: var(--poppins);
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2>.cont-text>.p2{
-      font-size: 10px;
+      font-size: 13px;
       font-family:var(--poppins);
+      margin-top: -1em;
       margin-bottom: -1em;
           color: gray;
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2>.cont-text>.p3{
     font-weight: bold;
-    font-size: 11px;
+    font-size: 14px;
     font-family:var(--poppins);
     color: var(--pink);
 }
 
 .mySwiper3>.swiper-wrapper>.swiper-slide>.container2>.cont-text>.p3>span{
     text-decoration: line-through;
-    font-weight: normal;
+    font-weight: 200;
     color: #000;
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 0.3em;
 }
 

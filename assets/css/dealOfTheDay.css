@@ -1,5 +1,5 @@
 .mySwiper4 {
-    height: 700px;
+    height: 800px;
     margin: 2em 1em 2em 1em;
 }
 
@@ -18,11 +18,12 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 2em;
+   
 }
 
 .container-box>.container-image>img {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 50%;
 }
 
 .container-box>.container-info {
@@ -52,10 +53,7 @@
 }
 
 .container-box>.container-info>.test2>span {
-    color: var(--spanish-gray);
-    font-weight: normal;
-    text-decoration: line-through;
-    margin-left: 7px;
+    
 }
 
 .container-box>.container-info>button {
